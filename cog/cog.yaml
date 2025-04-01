@@ -1,0 +1,11 @@
+# Configuration for Cog ⚙️
+# Reference: https://cog.run/yaml
+
+build:
+  gpu: true
+  cuda: "12.1"
+  python_version: "3.11"
+  python_requirements: requirements.txt
+
+# predict.py defines how predictions are run on your model
+predict: "predict.py:Predictor"

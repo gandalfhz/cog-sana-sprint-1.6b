@@ -1,0 +1,7 @@
+torch==2.4.0
+torchvision
+git+https://github.com/huggingface/diffusers.git@refs/pull/11150/head
+transformers==4.50.0
+accelerate==1.5.0
+pillow==11.0.0
+xformers
