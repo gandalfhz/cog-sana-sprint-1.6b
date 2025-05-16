@@ -1,0 +1,15 @@
+https://weights.replicate.delivery/default/nvidia/sana-sprint-1.6b/model_index.json checkpoints/model_index.json
+https://weights.replicate.delivery/default/nvidia/sana-sprint-1.6b/tokenizer/tokenizer_config.json checkpoints/tokenizer/tokenizer_config.json
+https://weights.replicate.delivery/default/nvidia/sana-sprint-1.6b/tokenizer/special_tokens_map.json checkpoints/tokenizer/special_tokens_map.json
+https://weights.replicate.delivery/default/nvidia/sana-sprint-1.6b/tokenizer/tokenizer.json checkpoints/tokenizer/tokenizer.json
+https://weights.replicate.delivery/default/nvidia/sana-sprint-1.6b/tokenizer/tokenizer.model checkpoints/tokenizer/tokenizer.model
+https://weights.replicate.delivery/default/nvidia/sana-sprint-1.6b/transformer/config.json checkpoints/transformer/config.json
+https://weights.replicate.delivery/default/nvidia/sana-sprint-1.6b/transformer/diffusion_pytorch_model.safetensors checkpoints/transformer/diffusion_pytorch_model.safetensors
+https://weights.replicate.delivery/default/nvidia/sana-sprint-1.6b/scheduler/scheduler_config.json checkpoints/scheduler/scheduler_config.json
+https://weights.replicate.delivery/default/nvidia/sana-sprint-1.6b/text_encoder/model-00001-of-00002.safetensors checkpoints/text_encoder/model-00001-of-00002.safetensors
+https://weights.replicate.delivery/default/nvidia/sana-sprint-1.6b/text_encoder/config.json checkpoints/text_encoder/config.json
+https://weights.replicate.delivery/default/nvidia/sana-sprint-1.6b/text_encoder/model-00002-of-00002.safetensors checkpoints/text_encoder/model-00002-of-00002.safetensors
+https://weights.replicate.delivery/default/nvidia/sana-sprint-1.6b/text_encoder/model.safetensors.index.json checkpoints/text_encoder/model.safetensors.index.json
+https://weights.replicate.delivery/default/nvidia/sana-sprint-1.6b/README.md checkpoints/README.md
+https://weights.replicate.delivery/default/nvidia/sana-sprint-1.6b/vae/config.json checkpoints/vae/config.json
+https://weights.replicate.delivery/default/nvidia/sana-sprint-1.6b/vae/diffusion_pytorch_model.safetensors checkpoints/vae/diffusion_pytorch_model.safetensors

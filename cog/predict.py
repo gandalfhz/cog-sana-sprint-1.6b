@@ -9,13 +9,12 @@ import subprocess
 from diffusers import SanaSprintPipeline
 
 MODEL_CACHE = "checkpoints"
-MODEL_URL = "https://weights.replicate.delivery/default/nvidia/Sana_Sprint_1.6B_1024px_diffusers/model.tar"
 
-def download_weights(url, dest):
+def download_weights(manifest, dest):
     start = time.time()
-    print(f"downloading url: {url}")
+    print(f"downloading via manifest.")
     print(f"downloading to: {dest}")
-    subprocess.check_call(["pget", "-x", url, dest], close_fds=False)
+    subprocess.check_call(["pget", "multifile", manifest], close_fds=False)
     print(f"downloading took: {time.time() - start}")
 
 class Predictor(BasePredictor):
@@ -23,7 +22,7 @@ class Predictor(BasePredictor):
         """Load the model into memory and apply patches to fix inference_steps issues"""
         # Download the weights if they don't exist
         if not os.path.exists(MODEL_CACHE):
-            download_weights(MODEL_URL, MODEL_CACHE)
+            download_weights("manifest.txt", MODEL_CACHE)
 
         # Load the pipeline
         self.pipeline = SanaSprintPipeline.from_pretrained(
